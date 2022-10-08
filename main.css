@@ -1,0 +1,84 @@
+body{
+    margin: 0px 0px 0px 0px;
+    background: url(wallpaperbetter1.jpg) no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+video{
+    border-radius: 10px;
+    border-color: #0c1444;
+    border-width: 10px;
+}
+
+h1{
+    margin-top: 0px;
+    color:gainsboro ;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background: url(wallpaperbetter4.jpg) no-repeat;
+    background-size:cover;
+    background: linear-gradient(90deg,#ff0000,yellow, #ff00f3, #0033ff, #ff00c4);
+    background-size: 400%;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 600;
+    word-spacing: 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 15s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+
+h2{
+    color:azure;
+}
+
+.second{
+    margin-top:70px;
+    margin-bottom:50px;
+}
+
+ul {
+    text-align: center;
+    list-style-position:inside;
+}
+
+.extra{
+    margin-top: 100px;
+    margin-bottom:100px;
+}
+
+.btn{
+    text-align: center;
+    color:powderblue;
+    height:40px;
+    margin-left:auto;
+    margin-top:20px;
+    background-color:  #442e92;
+    border-radius: 15px;
+    font-size: 18px;
+    border-color: black;
+}
+
+.quiz{
+    margin-top: 100px;
+}
+
+hr{
+    border: none;
+    border-top:black dotted ;
+    width: 8%;
+    border-width: 5px;
+    margin-top:100px;
+    margin-bottom:100px;
+
+}
